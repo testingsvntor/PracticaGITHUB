@@ -1,0 +1,41 @@
+// ----
+// Sass (v3.4.12)
+// Compass (v1.0.3)
+// ----
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
+
+$brand: #f98355;
+$root_font: "ZCOOL QingKe HuangYou", cursive;
+$header_background: #1abc9c;
+$header_text_color: white;
+$main-nav-text: white;
+@debug $brand;
+.menu1 {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    li {
+    a {
+      display: block;
+      color: #000;
+      padding: 8px 0 8px 16px;
+      text-decoration: none;
+    }
+    a.active {
+      background-color: #4caf50;
+      color: $main-nav-text;
+    }
+    a:hover:not(.active) {
+      background-color: #555;
+      color: $main-nav-text;
+    }
+  }
+  }
+  @debug $brand; 
+}
+@debug 10em + 12em;

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,2BAA2B;AAa3B,AAAA,IAAI,CAAC;EACD,IAAI,EAAE,OAAuC,CAX9B,SAAS,EAAE,KAAK,EAAE,UAAU;CAY9C;;AAED,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;CAWpB;;AATI,AAAD,YAAS,CAAQ;EACb,gBAAgB,EAfd,OAAO;EAgBT,KAAK,EAAE,IAAI;CACd;;AAEA,AAAD,YAAS,CAAQ;EACb,gBAAgB,EAnBd,OAAO;EAoBT,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "answer.scss"
+    ],
+    "names": [],
+    "file": "answer.css"
+}

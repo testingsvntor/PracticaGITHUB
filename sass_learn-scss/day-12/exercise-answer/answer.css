@@ -1,0 +1,46 @@
+/* Day 12 Exercise Answer */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+.palette {
+  position: relative;
+  width: 17em;
+  height: 5em;
+  border: 1px solid #333;
+}
+
+.palette-item {
+  width: 3em;
+  height: 3em;
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+#palette-item-1 {
+  background: #2B2B2B;
+  left: 1em;
+}
+
+#palette-item-2 {
+  background: #F5F5F5;
+  left: 5em;
+}
+
+#palette-item-3 {
+  background: #E5E5E5;
+  left: 9em;
+}
+
+#palette-item-4 {
+  background: #DDB34E;
+  left: 13em;
+}
+/*# sourceMappingURL=answer.css.map */
